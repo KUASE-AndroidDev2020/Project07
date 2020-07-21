@@ -10,7 +10,7 @@
         android:id="@+id/time"
         android:layout_width="141dp"
         android:layout_height="50dp"
-        android:layout_marginTop="212dp"
+        android:layout_marginTop="168dp"
         android:background="#039BE5"
         android:text="TIME SET"
         android:textColor="#FFFFFF"
@@ -22,7 +22,7 @@
         android:id="@+id/reason"
         android:layout_width="141dp"
         android:layout_height="50dp"
-        android:layout_marginTop="300dp"
+        android:layout_marginTop="248dp"
         android:background="#039BE5"
         android:text="REASON SET"
         android:textColor="#FFFFFF"
@@ -34,7 +34,7 @@
         android:id="@+id/password"
         android:layout_width="141dp"
         android:layout_height="50dp"
-        android:layout_marginTop="388dp"
+        android:layout_marginTop="324dp"
         android:background="#039BE5"
         android:text="PASSWORD SET"
         android:textColor="#FFFFFF"
@@ -46,7 +46,7 @@
         android:id="@+id/necessity"
         android:layout_width="141dp"
         android:layout_height="50dp"
-        android:layout_marginTop="476dp"
+        android:layout_marginTop="404dp"
         android:background="#039BE5"
         android:text="NECESSITY SET"
         android:textColor="#FFFFFF"
@@ -58,7 +58,7 @@
         android:id="@+id/alarm"
         android:layout_width="228dp"
         android:layout_height="79dp"
-        android:layout_marginTop="580dp"
+        android:layout_marginTop="508dp"
         android:background="#039BE5"
         android:text="ALARM SET"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
@@ -68,16 +68,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <EditText
-        android:id="@+id/editText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="76dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.535"
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="387dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="60dp"
+        android:text="　　　TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
